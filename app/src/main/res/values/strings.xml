@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">demo2</string>
+    <string name="offer">offer</string>
+    <string name="cafe">cafe</string>
+    <string name="profile">profile</string>
+    <string name="home">Home</string>
+    <string name="pop_up">pop_up</string>
+    <string name="earn_and_redeem_wave_coin">EARN AND REDEEM WAVE COIN</string>
+    <string name="card">card</string>
+    <string name="wiselist">wiselist</string>
+    <string name="explore">explore</string>
+</resources>

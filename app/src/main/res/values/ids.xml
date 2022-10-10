@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="offer" type="id" />
+    <item name="cafe" type="id" />
+    <item name="avatars" type="id" />
+</resources>
