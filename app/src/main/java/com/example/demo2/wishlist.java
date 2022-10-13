@@ -2,22 +2,31 @@ package com.example.demo2;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
 public class wishlist extends AppCompatActivity {
+    private Button nike;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wishlist);
+
+//        RecyclerView recyclerView = findViewById(R.id.recyclerContact);
+//        recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
 
 
@@ -65,5 +74,19 @@ public class wishlist extends AppCompatActivity {
                         return false;
                     }
                 });
+
+//                nike=findViewById(R.id.nike);
+//                nike.setOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                        gotoUrl("https://www.nike.com/in/w/mens-sale-shoes-3yaepznik1zy7ok");
+//                    }
+//
+//                    private void gotoUrl(String s) {
+//                        Uri uri = Uri.parse(s);
+//                        startActivity(new Intent(Intent.ACTION_VIEW,uri));
+//                    }
+//                });
+
             }
         }

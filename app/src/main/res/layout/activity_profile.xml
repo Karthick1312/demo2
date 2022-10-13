@@ -5,17 +5,124 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".profile">
-    <TextView
-        android:layout_width="wrap_content"
+
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/profile"
-        android:textSize="50sp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/imgUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <RelativeLayout
+                android:id="@+id/imgUser1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+                <!--            android:background="@drawable/circle_border">-->
+
+                <ImageView
+                    android:layout_width="1200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="190dp"
+                    android:layout_marginTop="-20dp"
+                    android:background="@drawable/ic_baseline_handshake" />
+
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="9dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/profile"
+                    android:padding="3dp"
+                    android:scaleType="centerInside" />
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/image"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="-50dp"
+                    android:background="@drawable/circle"
+                    android:src="@drawable/ic_baseline_edit_24" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="170dp"
+                android:text="Hello,"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:id="@+id/hello"/>
+
+            <com.google.android.material.tabs.TabLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:id="@+id/include"
+                android:layout_below="@+id/hello"
+                app:tabTextColor="#909B9C"
+                app:tabSelectedTextColor="#909B9C"
+                app:tabIndicatorColor="#909B9C"
+                app:tabIndicatorHeight="3.5dp"
+                android:layout_marginTop="0dp"
+                app:tabMode="scrollable"
+                android:backgroundTint="@color/white">
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Orders"
+                    android:id="@+id/orders">
+                </com.google.android.material.tabs.TabItem>
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Settings"
+                    android:id="@+id/setting">
+                </com.google.android.material.tabs.TabItem>
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inbox"
+                    android:id="@+id/inbox">
+                </com.google.android.material.tabs.TabItem>
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Help"
+                    android:id="@+id/help">
+                </com.google.android.material.tabs.TabItem>
+
+            </com.google.android.material.tabs.TabLayout>
 
 
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/include"
+                android:layout_marginTop="0dp"
+                android:id="@+id/fragmentcontainer">
+
+            </androidx.viewpager.widget.ViewPager>
+
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -23,5 +130,8 @@
         app:itemBackground="@color/white"
         app:menu="@menu/menu_navigation" />
 
-   </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
+
 

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Discount">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Discount"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:id="@+id/text1"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:foreground="@drawable/effect"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="40dp"
+        android:id="@+id/card1">
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/shoes1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="10dp"
+            android:text="Nike"
+            android:textStyle="bold"
+            android:id="@+id/nik1"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="40dp"
+            android:text="Mens Air Zoom Pegasus"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="90dp"
+            android:text="₹1601"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:foreground="@drawable/effect"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="40dp"
+        android:layout_below="@+id/card1"
+        android:id="@+id/card2">
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/shoes3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="10dp"
+            android:text="Puma"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="40dp"
+            android:text="Womens Air Zoom Pegasus"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="90dp"
+            android:text="₹2501"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:foreground="@drawable/effect"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="40dp"
+        android:layout_below="@+id/card2"
+        android:id="@+id/card3">
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/shoes4" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="10dp"
+            android:text="Adidas"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="40dp"
+            android:text="Womens Air Zoom Pegasus"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="90dp"
+            android:text="₹5500"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="370dp"-->
+<!--        android:layout_height="90dp"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="130dp"-->
+<!--        android:backgroundTint="#FFFFFF"-->
+<!--        app:cardCornerRadius="20dp"-->
+<!--        app:cardElevation="40dp">-->
+
+
+
+<!--        <TextView-->
+<!--            android:layout_width="65dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginStart="80dp"-->
+<!--/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="50dp"-->
+
+<!--            android:layout_marginStart="160dp"-->
+<!--            android:layout_marginTop="27dp"-->
+<!--            android:text="Cards"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="30dp"/>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="370dp"-->
+<!--        android:layout_height="90dp"-->
+<!--        android:foreground="@drawable/effect"-->
+<!--        android:clickable="true"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="240dp"-->
+<!--        android:backgroundTint="#FFFFFF"-->
+<!--        app:cardCornerRadius="20dp"-->
+<!--        app:cardElevation="40dp">-->
+
+
+
+
+<!--        <TextView-->
+<!--            android:layout_width="65dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginStart="80dp"-->
+<!--/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="170dp"-->
+<!--            android:layout_height="50dp"-->
+
+<!--            android:layout_marginStart="160dp"-->
+<!--            android:layout_marginTop="27dp"-->
+<!--            android:text="Netbanking"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="30dp"/>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+
+</RelativeLayout>

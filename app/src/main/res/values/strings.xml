@@ -1,12 +1,15 @@
 <resources>
     <string name="app_name">demo2</string>
     <string name="offer">offer</string>
-    <string name="cafe">cafe</string>
     <string name="profile">profile</string>
     <string name="home">Home</string>
-    <string name="pop_up">pop_up</string>
-    <string name="earn_and_redeem_wave_coin">EARN AND REDEEM WAVE COIN</string>
     <string name="card">card</string>
-    <string name="wiselist">wiselist</string>
+    <string name="wishlist">wishlist</string>
     <string name="explore">explore</string>
+    <string name="view_all">View all</string>
+    <string name="choose_brand">Choose brand</string>
+    <string name="nike">Nike</string>
+    <string name="shoezy">Shoezy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

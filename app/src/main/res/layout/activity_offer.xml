@@ -6,21 +6,117 @@
     android:layout_height="match_parent"
     tools:context=".offer">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="offer"
-        android:textSize="50sp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_navigation"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_alignParentBottom="true"
-        app:itemBackground="@color/white"
-        app:menu="@menu/menu_navigation" />
 
-</RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Cart"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="100dp"
+                app:cardCornerRadius="20dp"
+                android:outlineSpotShadowColor="@color/black">
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/shoecart" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:text="₹ 19,350"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Air Jordan 3 Retro"
+                    android:textStyle="bold"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="150dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Qty : 1"
+                    android:textStyle="bold"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginLeft="150dp"/>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="300dp"
+                android:outlineSpotShadowColor="@color/black"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/shoecart" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="₹ 19,350"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Air Jordan 3 Retro"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Qty: 1"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="80dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="520dp"/>
+
+
+
+        </RelativeLayout>
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@color/white"
+            app:menu="@menu/menu_navigation" />
+
+    </RelativeLayout>

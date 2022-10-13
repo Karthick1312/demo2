@@ -6,18 +6,19 @@
         android:title="@string/home"
         android:icon="@drawable/ic_baseline_home_24"/>
     <item
-        android:id="@+id/offer"
-        android:title="@string/offer"
-        android:icon="@drawable/ic_baseline_local_offer_24"/>
-
-    <item
         android:id="@+id/explore"
         android:title="@string/explore"
         android:icon="@drawable/ic_baseline_explore_24"/>
     <item
         android:id="@+id/wiselist"
-        android:title="@string/wiselist"
+        android:title="@string/wishlist"
         android:icon="@drawable/ic_baseline_favorite_24"/>
+
+    <item
+        android:id="@+id/offer"
+        android:title="@string/offer"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"/>
+
 
     <item
         android:id="@+id/profile"

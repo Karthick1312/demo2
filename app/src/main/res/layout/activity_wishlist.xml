@@ -5,13 +5,114 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".wishlist">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/wiselist"
-        android:textSize="50sp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"
+            android:text="Wishlist"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="100dp"
+            app:cardCornerRadius="20dp"
+            android:outlineSpotShadowColor="@color/black">
+
+            <ImageView
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shoecart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:text="₹ 19,350"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Air Jordan 3 Retro"
+                android:textStyle="bold"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="150dp"/>
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="130dp"
+                android:backgroundTint="@color/black"
+                android:text="Add to Cart" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="350dp"
+            android:outlineSpotShadowColor="@color/black"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shoecart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="₹ 19,350"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="50dp"
+                android:text="Air Jordan 3 Retro"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qty:"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="130dp"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="130dp"
+                android:backgroundTint="@color/black"
+                android:text="Add to Cart" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
