@@ -5,6 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".explore">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -316,6 +326,8 @@
         app:itemBackground="@color/white"
 
         app:menu="@menu/menu_navigation" />
+    </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>
 
